@@ -4,7 +4,7 @@ syntax_type = ""
 
 if syntax_type == "":
     syntax_type = raw_input("Syntax: ")
-
+    
 def get_file(file_name):
     file_ = open(file_name, "r")
     final_ = []
